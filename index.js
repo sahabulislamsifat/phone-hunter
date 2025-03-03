@@ -28,6 +28,7 @@ const loadAllPhones = async (status, searchText) => {
 
 const displayAllPhones = (phones) => {
   // console.log(phones);
+  // document.getElementById("phones-container").innerHTML = null;
   const phoneContainer = document.getElementById("phones-container");
   phones.forEach((mobile) => {
     // console.log(mobile);
